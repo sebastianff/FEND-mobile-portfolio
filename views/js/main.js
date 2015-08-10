@@ -536,8 +536,9 @@ document.addEventListener('DOMContentLoaded', function() {
   "use strict";
   var cols = 8;
   var s = 256;
+  var elem;
   for (var i = 0; i < 20; i++) {//changed the number of elements to just the ones that are necessary
-    var elem = document.createElement('img');
+    elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "imagesdist/pizza.jpg";//Made the photo file smaller
     elem.style.height = "100px";
