@@ -440,11 +440,10 @@ var resizePizzas = function(size) {
 
         var allThePizzas = document.querySelectorAll(".randomPizzaContainer");
         // Iterates through pizza elements on the page and changes their widths
-
         for (var i = 0; i < allThePizzas.length; i++) {
-          allThePizzas[i].style.width = newSize + "%";
+          allThePizzas[i].style.width = newSize + "%";//mad this part of code smaller and more efficient by avoiding extra calculations
         }
-  }
+    }
 
   changePizzaSizes(size);
 
@@ -491,7 +490,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
-  var scrollPos = document.body.scrollTop / 1250;
+  var scrollPos = document.body.scrollTop / 1250;//made a variable outside of the loop for scroll position to avoid async layout
   var items = document.querySelectorAll('.mover');
   for (var i = 0; i < items.length; i++) {
     var phase = Math.sin((scrollPos) + (i % 5));
@@ -515,10 +514,10 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  for (var i = 0; i < 20; i++) {
+  for (var i = 0; i < 20; i++) {//changed the number of elements to just the ones that are necessary
     var elem = document.createElement('img');
     elem.className = 'mover';
-    elem.src = "imagesdist/pizza.jpg";
+    elem.src = "imagesdist/pizza.jpg";//Made the photo file smaller
     elem.style.height = "100px";
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
@@ -527,3 +526,4 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   updatePositions();
 });
+

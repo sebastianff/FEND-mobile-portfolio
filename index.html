@@ -56,16 +56,16 @@
       /* Smartphones (portrait) */
       @media only screen and (max-width: 480px) {
       body { font-size: 12px;}
-      header p { padding-left: 4.5em;}
+      header p { padding-left: 4.5em;}<!--Made all of the css inline to avoid blocking---!>
       }
 
     </style>
 
-    <link href="cssdist/print.css" rel="stylesheet" media="print">
+    <link href="cssdist/print.css" rel="stylesheet" media="print"><!--Separated the loading of the print style-->
 
     <script src="jsdist/analytics.js" async></script>
     <script src="http://www.google-analytics.com/analytics.js" async></script>
-    <script src="jsdist/perfmatters.js" async></script>
+    <script src="jsdist/perfmatters.js" async></script><!--made all of the javascript async to avoid blocking-->
   </head>
 
   <body>
@@ -100,7 +100,7 @@
           </li>
 
           <li>
-            <img style="width: 100px;" src="views/imagesdist/pizzeria.jpg">
+            <img style="width: 100px;" src="views/imagesdist/pizzeria.jpg"><!--made all of the files smaller using gulp-->
             <a href="views/pizza.html">Cam's Pizzeria</a>
             <p>Who wants a performant pizza?</p>
           </li>
