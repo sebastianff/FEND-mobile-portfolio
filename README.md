@@ -9,3 +9,6 @@
 -The pizza image is resized for improved speed.
 -will-change transform is added in the css.
 -Gulp was used to resize css,js and the photos.
+-Changed querySelectorAll to ElementsByClassName to improve speed.
+-Took the pizzasDiv variable out of the loop also to improve speed.
+-Edited the updatePositions function to improve speed.
