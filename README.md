@@ -1,5 +1,6 @@
 ## Website Performance Optimization portfolio project
-
+Author: Sebastian Farago
+Link: http://sebastianff.github.io/frontend-nanodegree-mobile-portfolio/
 -The app is started by opening the index.html file in this folder.<br>
 -The pizzas can be resized by moving the slider in the pizza.html page.<br>
 -The resize pizzas function is simplifed by moving the calculations out of the loop.<br>
