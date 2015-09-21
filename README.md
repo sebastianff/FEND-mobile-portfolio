@@ -1,6 +1,8 @@
 ## Website Performance Optimization portfolio project
-Author: Sebastian Farago
-Link: http://sebastianff.github.io/frontend-nanodegree-mobile-portfolio/
+Author: Sebastian Farago</br>
+Link: http://sebastianff.github.io/frontend-nanodegree-mobile-portfolio/</br>
+-The main page has  page speed insights score of above 90
+-The pizza page renders at 60 fps
 -The app is started by opening the index.html file in this folder.<br>
 -The pizzas can be resized by moving the slider in the pizza.html page.<br>
 -The resize pizzas function is simplifed by moving the calculations out of the loop.<br>
