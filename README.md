@@ -1,6 +1,6 @@
 ## Website Performance Optimization portfolio project
 Author: Sebastian Farago</br>
-Link: http://sebastianff.github.io/frontend-nanodegree-mobile-portfolio/</br>
+Link: http://sebastianff.github.io/FEND-mobile-portfolio/</br>
 A project about page speed performance I made for class.</br>
 The main page has  page speed insights score of above 90.</br>
 The pizza page renders at 60 fps.</br>
